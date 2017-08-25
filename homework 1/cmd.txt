@@ -1,0 +1,4 @@
+git status - tells what's in working and staging
+git init - creates new repository 
+
+git reset -- hard - gets rid of all your changes since last time you made a commit
