@@ -9,9 +9,10 @@ public class HelloWorld
 {
 	public static void main(String[] args)
 	{
-		string message;
+		String message;
+        message = "LeBron James is GOAT!";
         
         // Print out a message to the whole world!
-		System.out.println("Hello World!");
+		System.out.println(message);
 	}
 }
