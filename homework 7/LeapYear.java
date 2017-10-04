@@ -2,7 +2,7 @@
  CLASS INFORMATION                                    * Score: ______________ *
  -----------------                                    *************************
    Programmer: Kyle Grimm
-   Date Due:   10/2/2017
+   Date Due:   10/4/2017
  ******************************************************************************/
  import java.util.Scanner;
 
@@ -31,14 +31,7 @@ public class LeapYear
 			}
 			else 
 			{
-				if (year % 400 == 0)
-				{
-					System.out.print("That's a leap year :D");
-				}
-				else
-				{
-					System.out.print("That's a regular year lol");
-				}
+				System.out.print("That's a leap year :D");
 			}
 		}
 		else
