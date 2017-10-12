@@ -2,7 +2,7 @@
  CLASS INFORMATION                                    * Score: ______________ *
  -----------------                                    *************************
    Programmer: Kyle Grimm
-   Date Due:   10/4/2017
+   Date Due:   10/13/2017
  ******************************************************************************/
 import java.util.Scanner;
 
@@ -12,22 +12,26 @@ public class Negative
 	{
 		Scanner keyboard = new Scanner(System.in);
 		int num;
-		int sum;
-		int smaller;
-		int larger; 
+		int sum = 0;
+		int smallest;
+		int largest = 0; 
 		
 		System.out.print("Enter a negative number: ");
 		num = keyboard.nextInt();
-
+		
 		while (num > 0)
 		{
 			System.out.print("That is positive! \nNow give me a negative number: ");
-			num = keyboard.nextInt(sum);
-			
 			sum += num;
+			num = keyboard.nextInt();
+			if 
+			{
 
+			}
+			
 		}
 		System.out.println("Ayyyyyy, that's negative! :D");
-		System.out.printf("The sum of numbers is %d!" , sum);
+		System.out.printf("The sum of numbers is %s!\n" , sum);
+		System.out.printf("The largest number is %s!\n" , largest);
 	}
 }
