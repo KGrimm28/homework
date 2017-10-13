@@ -13,7 +13,6 @@ public class Negative
 		Scanner keyboard = new Scanner(System.in);
 		int num;
 		int sum = 0;
-		int smallest;
 		int largest = 0; 
 		
 		System.out.print("Enter a negative number: ");
@@ -26,7 +25,7 @@ public class Negative
 			num = keyboard.nextInt();
 			if (largest < num)
 			{
-				System.out.print("The largest number is %s!\n" , largest);
+				largest = num;
 			}
 			
 		}
