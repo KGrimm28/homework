@@ -24,9 +24,9 @@ public class Negative
 			System.out.print("That is positive! \nNow give me a negative number: ");
 			sum += num;
 			num = keyboard.nextInt();
-			if 
+			if (largest < num)
 			{
-
+				System.out.print("The largest number is %s!\n" , largest);
 			}
 			
 		}
