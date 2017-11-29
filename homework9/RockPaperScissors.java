@@ -2,7 +2,7 @@
  CLASS INFORMATION                                    * Score: ______________ *
  -----------------                                    *************************
    Programmer: Kyle Grimm
-   Date Due:   11/16/2017
+   Date Due:   11/29/2017
  ******************************************************************************/
 
 import java.util.Scanner;
@@ -50,6 +50,12 @@ public class RockPaperScissors
         System.out.print("Choose Rock, Paper, or Scissors: ");
         Scanner keyboard = new Scanner(System.in);
         String swag = keyboard.next();
+
+        while(!swag.equals("Rock") && !swag.equals("Paper") && !swag.equals("Scissors"))
+        {
+            System.out.print("NO! Rock, Paper, or Scissors ONLY!!!!\nTry again: ");
+            swag = keyboard.next();
+        }
         return swag;
     }
     
